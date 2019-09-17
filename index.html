@@ -2,7 +2,11 @@
 layout: default
 title: Home
 ---
+
+
+
 <div class="blurb">
+
 
 	<style type="text/css">
 	.tg  {border-collapse:collapse;border-spacing:0;border:1px solid black}
@@ -45,14 +49,77 @@ title: Home
 
 	<ul style="list-style-type:none;">
 	<li> <b>Research interests</b> <br>
-				semantics and its interface with syntax and pragmatics </li>
+				Semantics and its interface with Syntax and Pragmatics </li>
 <br>
 
-	<li><b>Ongoing Projects</b> </li>
+	<li><b>Main Projects</b> </li>
 <ul style="list-style-type:disc;">
-	 <li>Focus particle ‘only’ in East Asian languages</li>
+	 <li><i>Only</i>-concord in East Asian languages <button onclick="myFunction()">Read more</button> </li>
 
-	 <li> Identity terms (e.g. <i>same</i>), equatives
+	 <script>
+	 	function myFunction() {
+	 		 var x = document.getElementById("myDIV");
+	 		 if (x.style.display === "none") {
+	 			 x.style.display = "block";
+	 		 } else {
+	 			 x.style.display = "none";
+	 		 }
+	 	 }
+	 </script>
+
+<div id="myDIV">
+	<font size="2">
+In Vietnamese (and Mandarin, Cantonese), several particles that contribute an exclusive meaning
+independently can co-occur (roughly: <i>John only1 only2 beef only3 eat</i> in English),
+under which case a single focus reading is still available. I am interested in identifying
+the syntactic and semantic functions of those particles respectively and also how they interact with each other.
+<!-- I show that the Spec-Head relation proposed for only2 and only3 is problematic (contra Hole 2017)
+but instead exists between only2 and only1. I argue that a bipartite analysis for association with focus constructions (Lee 2005, Barbiers 2014, Quek and Hirsch 2017)
+can capture those facts, with a few extensions. -->
+
+	</font>
+
+</div>
+
+<font size="2">
+<ul style="list-style-type:circle;">
+		<li><a href="{{ site.baseurl }}/NELS_only.pdf" title="yenan">Only-concord in Vietnamese: Support for a bipartite analysis and Undermerge</a> </li>
+		<li><a href="{{ site.baseurl }}/LSA_only.pdf" title="yenan">Where does Mandarin zhiyou ‘only’ move? Not to CaiP!</a> </li>
+						<!-- <a href="{{ site.baseurl }}/cusp11_same.pdf" title="yenan">Why *(the) same</a> -->
+</ul>
+</font>
+
+	 <li> Identity terms (e.g. <i>same</i>), equatives <button onclick="myFunction1()">Read more</button>
+
+		 <script>
+		 	function myFunction1() {
+		 		 var x = document.getElementById("mySAME");
+		 		 if (x.style.display === "none") {
+		 			 x.style.display = "block";
+		 		 } else {
+		 			 x.style.display = "none";
+		 		 }
+		 	 }
+		 </script>
+
+
+
+		 <div id="mySAME">
+		 	<font size="2">
+	It is surprising that <i>same</i> can take an <i>as</i>-complement just like scalar equatives
+	(e.g. <i>Ann read the same book as Bill did</i> vs. <i>Ann read as long a book as Bill did</i>).
+	Whereas a branch of literature argues that <i>same</i> indeed involves a comparative-like structure,
+	few pursues a parallel semantics between the two. I provide a possible version of such an analysis,
+	which has the further advantage of capturing the scope-taking nature of <i>same</i>.
+
+			 <!-- I show that the Spec-Head relation proposed for only2 and only3 is problematic (contra Hole 2017)
+		 but instead exists between only2 and only1. I argue that a bipartite analysis for association with focus constructions (Lee 2005, Barbiers 2014, Quek and Hirsch 2017)
+		 can capture those facts, with a few extensions. -->
+
+		 	</font>
+
+		 </div>
+
 		  <font size="2">
 			<ul style="list-style-type:circle;">
 					<li><a href="{{ site.baseurl }}/sicogg20_yenan_same.pdf" title="yenan">Two strategies of <i>samenss</i> in Mandarin</a> </li>
@@ -62,7 +129,13 @@ title: Home
 			</font>
 	 </li>
 
+</ul>
 
+<br>
+
+	<li><b>Side Projects</b> </li>
+
+<ul style="list-style-type:disc;">
 	 <li>Quantification and Referentiality
         <ul style="list-style-type:circle;"> 		<font size="2">
 					  <li> <a href="{{ site.baseurl }}/cls53_mei_dou.pdf" title="yenan">Mandarin <i>mei</i> with/without <i>dou</i></a> </li>
@@ -108,6 +181,12 @@ title: Home
 
 
 	</div>
+
+
+
+
+
+
 
 <!--
 	<b>Research interests</b> <br>
