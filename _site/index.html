@@ -75,17 +75,17 @@
 	 <li><i>Only</i>-concord in East Asian languages <button onclick="myFunction()">Read more</button> </li>
 
 	 <script>
-	 	function myFunction() {
-	 		 var x = document.getElementById("myDIV");
-	 		 if (x.style.display === "none") {
-	 			 x.style.display = "block";
-	 		 } else {
-	 			 x.style.display = "none";
-	 		 }
-	 	 }
+	  function myFunction() {
+	 		var x = document.getElementById("myDIV");
+	 		if (x.style.display === "none") {
+	 			x.style.display = "block";
+	 		} else {
+	 			x.style.display = "none";
+	 		}
+	 	}
 	 </script>
 
-<div id="myDIV">
+<div id="myDIV"  style="display:none !important">
 	<font size="2">
 In Vietnamese (and Mandarin, Cantonese), several particles that contribute an exclusive meaning
 independently can co-occur (roughly: <i>John only1 only2 beef only3 eat</i> in English),
@@ -98,6 +98,8 @@ can capture those facts, with a few extensions. -->
 	</font>
 
 </div>
+
+
 
 <font size="2">
 <ul style="list-style-type:circle;">
@@ -121,8 +123,9 @@ can capture those facts, with a few extensions. -->
 		 </script>
 
 
-
-		 <div id="mySAME">
+ <!-- style="display:none"
+  -->
+		 <div id="mySAME"  style="display:none !important">
 		 	<font size="2">
 	It is surprising that <i>same</i> can take an <i>as</i>-complement just like scalar equatives
 	(e.g. <i>Ann read the same book as Bill did</i> vs. <i>Ann read as long a book as Bill did</i>).
@@ -146,10 +149,8 @@ can capture those facts, with a few extensions. -->
 			</ul>
 			</font>
 	 </li>
-
 </ul>
 
-<br>
 
 	<li><b>Side Projects</b> </li>
 
